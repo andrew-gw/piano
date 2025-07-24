@@ -9,11 +9,20 @@ html {
   user-select: none;
 }
 
+svg {
+  width: 100%;
+}
+
 body {
   margin: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
   position: fixed;
   width: 100%;
   height: 100%;
+  --content-margin: 20px;
+  --border-radius: 8px;
+}
 
 .piano {
   width: 100%;
