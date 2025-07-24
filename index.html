@@ -13,6 +13,33 @@
   </head>
 
   <body>
+        <div class="range-controls">
+          <div class="range-group">
+            <div class="range-knob" data-control="attack"></div>
+            <label for="attack">Attack</label>
+            <input id="attack" type="range" min="0.002" max="1" step="0.01" value="0.002">
+          </div>
+
+          <div class="range-group">
+            <div class="range-knob" data-control="decay"></div>
+            <label for="decay">Decay</label>
+            <input id="decay" type="range" min="0.01" max="2" step="0.01" value="2">
+          </div>
+
+          <div class="range-group">
+            <div class="range-knob" data-control="sustain"></div>
+            <label for="sustain">Sustain</label>
+            <input id="sustain" type="range" min="0" max="1" step="0.01" value="0">
+          </div>
+
+          <div class="range-group">
+            <div class="range-knob" data-control="release"></div>
+            <label for="release">Release</label>
+            <input id="release" type="range" min="0.01" max="1" step="0.01" value="0.2">
+          </div>
+        </div>
+      </div>
+
       <div class="controls">
         <input type="button" value="C4"  data-hz="262" />
         <input type="button" value="C#4" data-hz="278" class="black" />
@@ -45,5 +72,7 @@
     <script src="js/main.js"></script>
     <script src="js/mouse-events.js"></script>
     <script src="js/keyboard-events.js"></script>
+
+    <script src="js/range-knob.js"></script>
   </body>
 </html>
