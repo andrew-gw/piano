@@ -10,4 +10,19 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
+
+.piano {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#display-container {
+  width: 100%;
+  height: 62%;
+  display: flex;
+  flex-direction: column-reverse;
+  box-sizing: border-box;
+  padding: max(var(--content-margin), env(safe-area-inset-top)) max(var(--content-margin), env(safe-area-inset-right)) var(--content-margin) max(var(--content-margin), env(safe-area-inset-left));
+  grid-gap: var(--content-margin);
 }
