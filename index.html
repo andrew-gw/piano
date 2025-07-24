@@ -13,6 +13,32 @@
   </head>
 
   <body>
+    <div class="piano">
+      <div id="display-container">
+
+        <div class="preset-container">
+          <button id="prev-preset">&lt;</button>
+          <div class="select-container">
+            <label for="osc-type">Preset</label>
+            <select id="osc-type">
+              <optgroup label="Default">
+                <option value="sine" selected>Sine</option>
+                <option value="triangle">Triangle</option>
+                <option value="sawtooth">Sawtooth</option>
+                <option value="square">Square</option>
+              </optgroup>
+              <optgroup label="Instruments">
+                <option value="sine">Piano</option>
+                <option value="triangle">Trumpet</option>
+                <option value="square">Organ</option>
+                <option value="sawtooth">Clavi</option>
+                <option value="sine">Bells</option>
+              </optgroup>
+            </select>
+          </div>
+          <button id="next-preset">&gt;</button>
+        </div>
+
         <div class="range-controls">
           <div class="range-group">
             <div class="range-knob" data-control="attack"></div>
@@ -74,5 +100,6 @@
     <script src="js/keyboard-events.js"></script>
 
     <script src="js/range-knob.js"></script>
+    <script src="js/preset-controls.js"></script>
   </body>
 </html>
