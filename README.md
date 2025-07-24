@@ -10,8 +10,9 @@ A simple synthesizer
 ## Features
 
 - Scrolling Keyboard
-- Oscillator Presets (Sine, Triangle, Sawtooth, and Square)
-- Envelope Filters (Attack, Decay, Sustain, Release)
+- Instrument Presets
+- Oscillator (Sine, Triangle, Sawtooth, or Square)
+- Envelope Filter (Attack, Decay, Sustain, and Release)
 - Keyboard Support ("Musical Typing")
 - Light & Dark Mode
 - Works Across Devices, Platforms, and Browsers
@@ -20,7 +21,7 @@ A simple synthesizer
 
 ## Getting Started
 
-1. Download or Clone the project:
+1. Download or `clone` the project:
 
    `git clone https://github.com/andrew-gw/piano.git`
 
@@ -55,6 +56,7 @@ A simple synthesizer
 
 ## Requirements
 
+- [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 - JavaScript
 
 
