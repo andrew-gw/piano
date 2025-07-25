@@ -17,6 +17,7 @@ A simple synthesizer
 - Light & Dark Mode
 - Works Across Devices, Platforms, and Browsers
 - Works Offline
+- Supports Assistive Technologies (Screen Readers)
 
 
 ## Getting Started
